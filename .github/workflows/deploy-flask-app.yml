@@ -1,0 +1,25 @@
+name: Deploy-flask-app
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+		
+    steps:
+      - name: Print test
+        run: echo "start test"
+
+  deploy:
+    runs-on: ubuntu-latest
+		
+    steps:
+     - name: Print deploy
+       run: echo "start deploy"
+    
+    
+  
+  
