@@ -7,13 +7,13 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted
+    runs-on: 2818209-naumovvo
     steps:
       - name: Print test
         run: echo "start test"
 
   deploy:
-    runs-on: self-hosted
+    runs-on: 2818209-naumovvo
     steps:
      - name: Print deploy
        run: echo "start deploy"
