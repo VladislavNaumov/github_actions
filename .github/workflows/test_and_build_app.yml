@@ -7,13 +7,13 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: Print test
         run: echo "start test"
 
   deploy:
-    runs-on: ubuntu-latest	
+    runs-on: self-hosted
     steps:
      - name: Print deploy
        run: echo "start deploy"
